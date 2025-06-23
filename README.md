@@ -68,10 +68,6 @@ Contributions are welcome! To contribute:
 
 ---
 
-## License
-This project is open source and available under the [MIT License](LICENSE).
-
----
 
 ## Author
 - [Tejas Sharma](https://github.com/tejassharma)
