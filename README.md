@@ -1,6 +1,6 @@
 # CPU Scheduling Algorithm Simulator
 
-[Live Website](https://tejassharma.github.io/CPUScheduler/)
+[Live Website](https://tejashorizon.github.io/Cpu-Scheduling-Algorithm-Simulator/)
 
 ---
 
@@ -70,12 +70,18 @@ Contributions are welcome! To contribute:
 
 
 ## Author
-- [Tejas Sharma](https://github.com/tejassharma)
+- [Tejas Sharma](https://github.com/tejassharm)
 
 ---
 
+
 ## Useful Links
 - [Live Demo](https://tejassharma.github.io/CPUScheduler/)
+- [GitHub Repository]()
+
+
+
+- [Live Demo](https://tejashorizon.github.io/Cpu-Scheduling-Algorithm-Simulator/)
 - [GitHub Repository](https://github.com/TejasHorizoN/Cpu-Scheduling-Algorithm-Simulator)
 
 
