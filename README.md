@@ -1,16 +1,86 @@
-# CPUScheduler
-Website link : https://bit.ly/3DWKMV6  or  https://ravipatel1309.github.io/CPUScheduler/
+# CPU Scheduling Algorithm Simulator
 
-#FCFS #SJF #RoundRobin #SRTF #Priority
-#CPU Scheduling Algorithm
+[Live Website](https://tejassharma.github.io/CPUScheduler/)
 
-The Simulation Website of CPU Scheduling Algorithm is an interactive platform designed to simulate various CPU scheduling algorithms, including First Come First Serve (FCFS), Shortest Job First (SJF), Round Robin (RR), Shortest Remaining Time First (SRTF), Priority, and other popular algorithms.
+---
 
-The website provides a user-friendly interface where users can input their own data, including the number of processes, arrival time, burst time, priority, and time quantum. The website then visualizes the scheduling process and displays the results in real-time, providing a clear understanding of how the algorithm works and how it affects system performance.
+## Overview
+This web-based simulator visualizes how different CPU scheduling algorithms work. Users can input process data and instantly see scheduling results like Gantt charts, average waiting time, and turnaround time. The project implements core scheduling algorithms including:
+- **First Come First Serve (FCFS)**
+- **Shortest Job First (SJF)**
+- **Priority Scheduling**
+- **Round Robin (RR)**
+- **Shortest Remaining Time First (SRTF)**
 
-This simulation website is an excellent tool for students, educators, and professionals who are interested in learning about CPU scheduling algorithms and their practical applications. It provides a hands-on learning experience that allows users to experiment with different scheduling algorithms and understand their impact on system performance.
+---
 
-The code for this simulation website is available on GitHub, and can be easily modified and adapted to suit specific needs and requirements. It is designed to be user-friendly, customizable, and accessible to users with different levels of programming experience.
+## Features
+- **Interactive Input:** Enter process details (arrival time, burst time, priority, time quantum) via a user-friendly interface.
+- **Visualization:** Real-time Gantt chart and tabular output for each algorithm.
+- **Performance Metrics:** Displays average waiting time, turnaround time, and more.
+- **Algorithm Comparison:** Easily switch between algorithms to compare their effects.
+- **Responsive Design:** Works on desktop and mobile browsers.
+
+---
+
+## Getting Started
+
+### 1. Clone the Repository
+```sh
+git clone https://github.com/TejasHorizoN/Cpu-Scheduling-Algorithm-Simulator.git
+cd Cpu-Scheduling-Algorithm-Simulator
+```
+
+### 2. Open the Simulator
+Open `index.html` in your web browser, or deploy the project using GitHub Pages for online access.
+
+---
+
+## Usage
+1. **Select an Algorithm:** Choose from FCFS, SJF, Priority, RR, or SRTF.
+2. **Input Process Data:** Enter the number of processes and their details.
+3. **Visualize:** Click 'Simulate' to view the Gantt chart and results.
+4. **Compare:** Switch algorithms to see how results differ.
+
+---
+
+## Algorithms Implemented
+- **FCFS:** Non-preemptive, processes served in order of arrival.
+- **SJF:** Non-preemptive, shortest burst time first.
+- **Priority:** Non-preemptive, based on user-assigned priority.
+- **Round Robin:** Preemptive, uses time quantum for context switching.
+- **SRTF:** Preemptive, shortest remaining burst time first.
+
+---
+
+## Screenshots
+![Gantt Chart Example](images/CPU%20Scheduling_3.PNG)
+
+---
+
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to your branch (`git push origin feature-branch`)
+5. Open a Pull Request
+
+---
+
+## License
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## Author
+- [Tejas Sharma](https://github.com/tejassharma)
+
+---
+
+## Useful Links
+- [Live Demo](https://tejassharma.github.io/CPUScheduler/)
+- [GitHub Repository](https://github.com/TejasHorizoN/Cpu-Scheduling-Algorithm-Simulator)
 
 
 
